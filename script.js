@@ -16,15 +16,11 @@ function multiply(a, b) {
 
 // Calculator operation
 const numberOne = 3;
-const operation = "+";
+const operation = add;
 const numberTwo = 6;
 
 function operate(a, b, operation) {
-  const a = 4;
-  const b = 7;
-  operation = add();
-
-  return `${a}, ${operation}, ${b}`;
+  return operation(a, b);
 }
 
-console.log(operate);
+console.log(operate(3, 6, add));
