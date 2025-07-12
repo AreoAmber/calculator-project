@@ -1,0 +1,21 @@
+A calculator operation will consist of a number, an operator, 
+and another number. For example, 3 + 5. Create three variables, 
+one for each part of the operation. You’ll use these variables to update your display later.
+############################################################################################
+
+This is a little unclear for me.
+
+The first thing it tells me that i need to add a var for a number, could be any number
+The second is that i need to add a operator
+The third i need to add another var for my second number.
+
+* an operator is something that gets executed like '-', '+', '/', '*' etc.
+* so i need to add these operators to a seperate var.
+###############################################################################################
+###############################################################################################
+Create a new function operate that takes an operator and
+two numbers and then calls one of the above functions on the numbers.
+
+* i need to create a function named operate
+* the function need to take a operator(+/- etc)
+* need to add two number that can get executed
