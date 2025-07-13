@@ -19,3 +19,10 @@ two numbers and then calls one of the above functions on the numbers.
 * i need to create a function named operate
 * the function need to take a operator(+/- etc)
 * need to add two number that can get executed
+
+solution
+I have to add the correct function with the math function for simplicity i will go with add
+ in the function operate(a, b ,operation) {
+        return  operation (a,b)
+ }
+i was hardcoding my operate which caused my bug and not passing my argument as a param

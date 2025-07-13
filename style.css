@@ -47,3 +47,12 @@ html {
     padding: 5px;
 }
 
+.c{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: wheat;
+    margin: 5px;
+    padding: 5px;
+}
